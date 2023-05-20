@@ -29,7 +29,6 @@ nums.sort((a, b) => a - b);
     }
   }
 
-  return closestSum;
 }
 
 module.exports = threeSum;
