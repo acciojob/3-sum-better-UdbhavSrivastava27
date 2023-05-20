@@ -32,14 +32,4 @@ nums.sort((a, b) => a - b);
   return closestSum;
 }
 
-// Example usage
-const nums = [-1, 2, 1, -4];
-const target = 1;
-
-const closestSum = threeSumClosest(nums, target);
-console.log(closestSum);  // Output: 2 (since the sum closest to 1 is 2)
-
-  
-}
-
 module.exports = threeSum;
